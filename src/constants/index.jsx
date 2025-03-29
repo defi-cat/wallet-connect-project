@@ -1,0 +1,5 @@
+export const usdtContractAddress = {
+  ether: "0xdAC17F958D2ee523a2206206994597C13D831ec7 ",
+  bnb: "0x55d398326f99059ff775485246999027b3197955",
+  polygon: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+};

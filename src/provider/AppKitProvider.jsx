@@ -1,7 +1,7 @@
 import { createAppKit } from "@reown/appkit/react";
 
 import { WagmiProvider } from "wagmi";
-import { arbitrum, mainnet } from "@reown/appkit/networks";
+import { arbitrum, mainnet, opBNB, polygon } from "@reown/appkit/networks";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { WagmiAdapter } from "@reown/appkit-adapter-wagmi";
 
@@ -20,7 +20,7 @@ const metadata = {
 };
 
 // 3. Set the networks
-const networks = [mainnet, arbitrum];
+const networks = [mainnet, opBNB, polygon];
 
 // 4. Create Wagmi Adapter with only Trust Wallet
 const wagmiAdapter = new WagmiAdapter({
